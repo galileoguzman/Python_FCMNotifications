@@ -1,0 +1,1 @@
+curl --header "Authorization: key=YOUR_KEY" --header Content-Type:"application/json" https://fcm.googleapis.com/fcm/send  -d "{\"to\":\"/topics/news\",\"notification\": {\"title\": \"Click Action Message\",\"text\": \"Sample message\",\"click_action\":\"OPEN_ACTIVITY_1\"}}"
